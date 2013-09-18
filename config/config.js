@@ -18,11 +18,11 @@ module.exports = {
     root: rootPath,
     notifier: notifier,
     app: {
-      name: 'Nodejs Express Mongoose Demo'
+      name: 'Blog'
     },
     facebook: {
-      clientID: "APP_ID",
-      clientSecret: "APP_SECRET",
+      clientID: "216568468502656",
+      clientSecret: "e9c3eab4d3be8a73f749cf2ffbc5487e",
       callbackURL: "http://localhost:3000/auth/facebook/callback"
     },
     twitter: {
@@ -36,8 +36,8 @@ module.exports = {
       callbackURL: 'http://localhost:3000/auth/github/callback'
     },
     google: {
-      clientID: "APP_ID",
-      clientSecret: "APP_SECRET",
+      clientID: "1045290551098.apps.googleusercontent.com",
+      clientSecret: "9lMirzf-XV-RZugbHy9VrVUh",
       callbackURL: "http://localhost:3000/auth/google/callback"
     },
     linkedin: {
